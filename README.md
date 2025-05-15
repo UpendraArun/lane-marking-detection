@@ -81,37 +81,47 @@ Copy them to `/DeepLabV3Plus/pytorch-deeplab-xception-master/modeling/backbone/`
 
 For Xception backbone
 
-`cd modeling/backbone/`
+```
+cd modeling/backbone/
+```
 
 Open xcpetion.py, change the weights path as required.
 
 Same process for ResNet101 backbone.
 
 
-## Bavarian photo resize
+### Bavarian open data aerial image resize for inference
 
-Update the parameters in DeepLabV3Plus/pytorch-deeplab-xception/bav_photo_resize.py
-
-run 
-`python bav_photo_resize.py`
+Update the parameters in `/DeepLabV3Plus/pytorch-deeplab-xception/bav_photo_resize.py`
+ 
+```
+python bav_photo_resize.py
+```
 
 
 ## Inference
 
-`cd DeepLabV3Plus/pytorch-deeplab-xception-master/`
+```
+cd DeepLabV3Plus/pytorch-deeplab-xception-master/
+```
 
-update the directory paths in predict.py
+update the directory paths in predict.py and run
 
-run `python predict.py`
+```
+python predict.py
+```
 
 
 ### Calculation of number of pixels per class
 
-*Used only for multi-class dataset
+*Used only for multi-class dataset. Go to the following folder and then run the following file.
+```
+cd DeepLabV3Plus/pytorch-deeplab-xception-master/
+```
 
-`cd DeepLabV3Plus/pytorch-deeplab-xception-master/`
-
-run `python calc_num_pixels.py`
+```
+python calc_num_pixels.py
+```
 
 # Results
 ### Training Results on Skyscapes dataset

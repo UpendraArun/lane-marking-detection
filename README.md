@@ -115,29 +115,22 @@ run `python calc_num_pixels.py`
 
 # Results
 ### Training Results on Skyscapes dataset
-<div>
-	<img src="/home/upendra/lane-marking-detection/DeepLabV3Plus/assets/ValActual.png" width="33%" />
-	<p><em>Sample Scene</em></p>
-    <img src="/home/upendra/lane-marking-detection/DeepLabV3Plus/assets/ValGT.png" width="33%" />
-	<p><em>Ground Truth</em></p>
-</div>
-<div>
-	<img src="/home/upendra/lane-marking-detection/DeepLabV3Plus/assets/ValXception.png" width="33%" />
-	<p><em>Inference 1 (Xception Backbone)</em></p>
-    <img src="/home/upendra/lane-marking-detection/DeepLabV3Plus/assets/ValResNet101.png" width="33%" />
-	<p><em>Inference 2 (ResNet101 Backbone)</em></p>
-</div>
+
+| ![](https://github.com/UpendraArun/lane-marking-detection/blob/main/DeepLabV3Plus/assets/TestImageMunich.png) | ![](https://github.com/UpendraArun/lane-marking-detection/blob/main/DeepLabV3Plus/assets/ValGT.png) |
+|:-------------------------:|:---------------------:|
+| *Sample Scene*            | *Ground Truth*        |
+
+| ![](https://github.com/UpendraArun/lane-marking-detection/blob/main/DeepLabV3Plus/assets/ValXception.png) | ![](https://github.com/UpendraArun/lane-marking-detection/blob/main/DeepLabV3Plus/assets/ValResNet101.png) |
+|:---------------------------:|:-----------------------------:|
+| *Inference 1 (Xception)*    | *Inference 2 (ResNet101)*     |
 
 
 ### Test Results on Bavarian Open Data
-<div>
-	<img src="/home/upendra/lane-marking-detection/DeepLabV3Plus/assets/TestImageMunich.png" width="33%" />
-	<p><em>Sample Scene</em></p>
-    <img src="/home/upendra/lane-marking-detection/DeepLabV3Plus/assets/TestResultMultiClass.png" width="33%" />
-	<p><em>Inference 1 - Multi-Class</em></p>
-    <img src="/home/upendra/lane-marking-detection/DeepLabV3Plus/assets/TestResultBinaryClass.png" width="33%" />
-	<p><em>Inference 2 - Binary-Class</em></p>
-</div>
+
+| ![](https://github.com/UpendraArun/lane-marking-detection/blob/main/DeepLabV3Plus/assets/TestImageMunich.png) | ![](https://github.com/UpendraArun/lane-marking-detection/blob/main/DeepLabV3Plus/assets/TestResultMultiClass.png) | ![](https://github.com/UpendraArun/lane-marking-detection/blob/main/DeepLabV3Plus/assets/TestResultBinaryClass.png) |
+|:-------------------------------:|:-------------------------------------:|:--------------------------------------:|
+| *Sample Scene*                  | *Inference 1 - Multi-Class*           | *Inference 2 - Binary-Class*           |
+
 
 # References and links
 - **DeepLabv3+ Pytorch implementation**: [DeepLabV3+](https://github.com/jfzhang95/pytorch-deeplab-xception)

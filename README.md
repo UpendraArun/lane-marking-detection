@@ -126,7 +126,7 @@ python calc_num_pixels.py
 # Results
 ### Training Results on Skyscapes dataset
 
-| ![](https://github.com/UpendraArun/lane-marking-detection/blob/main/DeepLabV3Plus/assets/TestImageMunich.png) | ![](https://github.com/UpendraArun/lane-marking-detection/blob/main/DeepLabV3Plus/assets/ValGT.png) |
+| ![](https://github.com/UpendraArun/lane-marking-detection/blob/main/DeepLabV3Plus/assets/ValActual.png) | ![](https://github.com/UpendraArun/lane-marking-detection/blob/main/DeepLabV3Plus/assets/ValGT.png) |
 |:-------------------------:|:---------------------:|
 | *Sample Scene*            | *Ground Truth*        |
 
@@ -146,3 +146,4 @@ python calc_num_pixels.py
 - **DeepLabv3+ Pytorch implementation**: [DeepLabV3+](https://github.com/jfzhang95/pytorch-deeplab-xception)
 - **Inference**: [predict](https://github.com/alpemek/aerial-segmentation)
 - **TUM Course - Introduction to Deep Learning**: [IN2346](https://dvl.in.tum.de/teaching/i2dl-ss22/)
+
